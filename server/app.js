@@ -19,10 +19,12 @@ app.get('/*', function (req, res, next) {
   res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
+var port = process.env.PORT || 3000;
+
 db.sync()
 .then(function () {
-  app.listen(3000, function () {
-    console.log('Listening on port ' + 3000);
+  app.listen(port, function () {
+    console.log('Listening on port ' + port);
   });
 })
 .catch(console.error);
