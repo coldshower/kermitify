@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kermitify</title>
+	<link rel="icon" href="/favicon/favicon-32x32.png">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+	<link href="/stylesheets/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="main container">
+		<div id="header" class="text-center">
+			<h2>Meme</h2>
+			<p>Directions: If you leave 'Inner me' empty, we'll think of one for you. Otherwise, you can just type in both to submit a meme.</p>
+		</div>
+
+		<div id="image_holder">
+			<div id="meDiv" class="entry_row">
+				<span>Me: </span> 
+				<input id="me_entry" name="me" type="text" />
+			</div>
+
+			<div id="innerMeDiv" class="entry_row">
+				<span>Inner me: </span>
+				<input id="inner_me_entry" name="innerMe" type="text" />
+			</div>
+
+			<img id="kermit" src="/images/kermit_raw.jpeg" />
+		</div>
+
+		<div id="buttons" class="text-center">
+			<button id="submitBtn" class="btn-lg btn-primary">Submit</button>
+			<button id="printBtn" class="btn-lg btn-warning">Take Out of Oven</button>
+		</div>
+
+		<div id="error_message">
+			<h4>You did something wrong. Stop it.</h4>
+		</div>
+
+		<div id="thanks">
+			<h4>Thanks for the emem</h4>
+		</div>
+	</div>
+
+	<script src="/js/main.js"></script>
+</body>
+</html>

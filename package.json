@@ -1,0 +1,31 @@
+{
+  "name": "kermitify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coldshower/kermitify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coldshower/kermitify/issues"
+  },
+  "homepage": "https://github.com/coldshower/kermitify#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "pg": "^6.1.4",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.30.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
