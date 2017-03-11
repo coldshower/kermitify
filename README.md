@@ -1,4 +1,4 @@
 # kermitify
 meme factory
 
-http://kermitify.herokuapp.com
+https://kermitify.herokuapp.com/
