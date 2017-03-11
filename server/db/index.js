@@ -1,5 +1,6 @@
 var Sequelize = require('sequelize');
-var db = new Sequelize('postgres://localhost:5432/kermitify');
+var env = require('../env');
+var db = new Sequelize(env.DATABASE_URL);
 
 var Meme = db.define('meme', {
   me: {
